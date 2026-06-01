@@ -1,2 +1,4 @@
 [providers.java]
 version = "21"
+[start]
+cmd = "java -Xms512M -Xmx2048M -jar server.jar nogui"
